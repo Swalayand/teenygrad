@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import numpy as np
 from teenygrad import Tensor
-from tqdm import trange
+from teenygrad.helpers import trange
 import gzip, os
 
 from teenygrad.nn import optim
